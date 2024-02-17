@@ -1,0 +1,278 @@
+/*
+general
+*/
+*{
+    margin: 0;
+    padding: 0;
+  }
+  /*
+  cuerpo
+  */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: none; 
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    min-height: 100vh;
+    font-size: 20px;
+  }
+  /*
+  header
+  */
+header{
+    position: sticky;
+    top: 0;
+}
+  /*
+  barra-inicio
+  */
+.barraInicio{
+    background-color: #9EB384;
+    padding: 0;
+    margin: 0;
+}
+.barraInicio li{
+    list-style: none;
+    display: flex;
+} 
+.barraInicio li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    width: 100px;
+    padding: 15px;
+    background-color: #435334;
+    text-align: center;
+    margin: auto;   
+}
+.barraInicio li a:hover{
+    background-color: #CEDEBD;
+}
+.barraInicio ul{
+    display: flex;
+}
+/*
+barraCarga
+*/
+.barraProgreso{
+    display: flex;
+}
+.barraProgreso p{
+    text-align: center;
+}
+.barraProgreso #progreso1{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+    
+}
+.barraProgreso #progreso2{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+   
+}
+.barraProgreso #progreso3{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+}
+.barraProgreso #progreso4{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+    
+}
+.barraProgreso #progreso5{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+    
+}
+.barraProgreso #progreso6{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+    
+}
+.barraProgreso #progreso7{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+    
+}
+.barraProgreso #progreso8{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+    
+}
+.barraProgreso #progreso9{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+    
+}
+.barraProgreso #progreso10{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+    
+}.barraProgreso #progreso11{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+    
+}
+.barraProgreso #progreso12{
+    background-color: aqua;
+    height: 20px;
+    border: solid 1px white;
+    width: 33.3%;
+    
+}
+/*
+contenedor cuerpo
+*/
+.contenedorCuerpo{
+    padding-top: 5vh;
+    justify-content: center;
+    text-align: center;
+}
+.contenedorCuerpo .textoCuerpo{
+    position: relative;
+    margin: auto;
+    z-index: -1;
+}
+.textoCuerpo h1{
+    padding-bottom: 5vh;
+}
+/*
+contenedor juego
+*/
+.ContenedorJuego{
+    display: flex;
+    margin-top: 20vh;
+}
+.ContenedorJuego .cajaNumero1{
+    width: 400px;
+    height: 500px;
+    border: solid 5px white;
+    background: #435334;
+    margin: auto;
+}
+.ContenedorJuego .cajaNumero2{
+    width: 400px;
+    height: 500px;
+    border: solid 5px white;
+    background: #435334;
+    margin: auto;
+}
+.ContenedorJuego img{
+    padding-top: 5vh;
+    border-radius: 50%;
+}
+.ContenedorJuego p{
+    color: white;
+    align-items: center;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 10vh;
+    width: 10vw;
+    background-color: #9EB384;
+}
+/*botones*/
+.cajaBotones {
+    margin-top: 5vh;
+    height: 100px;
+}
+
+.cajaBotones button {
+    margin-top: 2%;
+    height: 5vh;
+    width: 10vw;
+    font-size: 25px;
+    background-color: #9EB384;
+    cursor: pointer;
+    color: white;
+}
+
+.cajaBotones button:hover {
+    background-color: rgb(13, 191, 214);
+    transition: 1s;
+    translate: 0px -10px;
+}
+
+#btnIgual {
+    margin: 0px 15vw;
+}
+/**/
+#continuar{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    background-color:#435334;
+    border: solid 5px #FFD700;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    width: 500px;
+    height: 500px;
+}
+.continuar button{
+    margin-top: 2%;
+    height: 5vh;
+    width: 10vw;
+    font-size: 25px;
+    background-color: #9EB384;
+    cursor: pointer;
+}
+#btnContinuar {
+    height: 10vh;
+    width: 15vw;
+    padding-bottom: 10px;
+}
+#img3{
+    padding-top: 5vh;
+    border-radius: 50%;
+}
+#btnContinuar a {
+    text-decoration: none;
+    color: aliceblue;
+}
+/*
+footer
+*/
+.footer{
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+}
+.footer .contenerdorFooter{
+    width: 100px;
+    height: 100px;
+    background-color: #9EB384;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer p {
+    text-align: center;
+}
+.footer #st{
+    padding-top: 5vh;
+}

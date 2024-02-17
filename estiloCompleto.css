@@ -1,0 +1,66 @@
+/*
+general
+*/
+*{
+    margin: 0;
+    padding: 0;
+  }
+  /*
+  cuerpo
+  */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: none; 
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    min-height: 100vh;
+    font-size: 20px;
+  }
+.contenedorCuerpo {
+    background-color: #9EB384;
+    width: 500px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+.contenedorCuerpo button{
+    margin-top: 2%;
+    height: 5vh;
+    width: 10vw;
+    font-size: 25px;
+    background-color: #435334;
+    cursor: pointer;
+    color: white;
+}
+.contenedorCuerpo button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+/*
+footer
+*/
+.footer{
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+}
+.footer .contenerdorFooter{
+    width: 100px;
+    height: 100px;
+    background-color: #9EB384;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer p {
+    text-align: center;
+}
+.footer #st{
+    padding-top: 5vh;
+}
